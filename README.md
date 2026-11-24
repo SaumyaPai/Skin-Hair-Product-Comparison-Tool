@@ -43,8 +43,8 @@ It runs locally on Windows, macOS or Linux in about 10 minutes. Everything is fr
 Quick start (macOS or Linux; Windows steps are below):
 
 ```bash
-git clone https://github.com/SaumyaPai/skincare-compare.git
-cd skincare-compare
+git clone https://github.com/SaumyaPai/Skin-Hair-Product-Comparison-Tool.git
+cd Skin-Hair-Product-Comparison-Tool
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 cp .env.example .env        # optional: add your free keys here
@@ -92,7 +92,7 @@ Without keys the app still works: summaries use the built-in wording, and photos
 On this page, click **Code → Download ZIP** and unzip it into, for example, `D:\skincare` (or use `git clone`). Open **PowerShell** and paste these lines one at a time:
 
 ```powershell
-cd D:\skincare\skincare-compare
+cd D:\skincare\Skin-Hair-Product-Comparison-Tool
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install -r requirements.txt
@@ -117,7 +117,7 @@ python -m scripts.run_app
 
 Next time, you only need:
 ```powershell
-cd D:\skincare\skincare-compare
+cd D:\skincare\Skin-Hair-Product-Comparison-Tool
 .\.venv\Scripts\Activate.ps1
 python -m scripts.run_app
 ```
