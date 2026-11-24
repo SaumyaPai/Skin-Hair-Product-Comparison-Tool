@@ -1,0 +1,104 @@
+/* Extra styling on top of .streamlit/config.toml. Colours only change the look;
+   every flag also has a text label and a symbol, so nothing depends on colour alone. */
+
+:root {
+  --blush: #F8ECEA;
+  --rose: #EBCFCD;
+  --rose-soft: #F1DAD8;
+  --rose-line: #E2BFBB;
+  --charcoal: #2A2321;
+  --muted: #6B5753;
+  --citrus: #E07A2E;        /* decoration only (borders, dots), never for text */
+  --citrus-text: #8F4310;
+  --sage-bg: #E3EEDF;
+  --sage-text: #2F5D3A;
+  --peach-bg: #FBE3CF;
+}
+
+/* Arch-shaped header */
+.hero {
+  background: var(--rose);
+  border-radius: 240px 240px 28px 28px / 120px 120px 28px 28px;
+  padding: 3.2rem 2rem 2rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--rose-line);
+}
+.hero h1 { font-family: "Source Serif Pro", "Source Serif 4", Georgia, serif; font-weight: 500;
+           font-size: 2.4rem; line-height: 1.15; margin: 0 0 .6rem; color: var(--charcoal); }
+.hero p { color: var(--muted); max-width: 34rem; margin: 0 auto; }
+.hero .spark { color: var(--citrus); font-size: 1.4rem; }
+
+/* Step headings: serif with a small citrus dot */
+h2 { font-weight: 500 !important; }
+.step { display: inline-block; width: 2rem; height: 2rem; line-height: 2rem; border-radius: 50%;
+        background: var(--charcoal); color: #fff; text-align: center; font-size: 1rem; margin-right: .5rem; }
+
+/* Product cards and result cards: soft rose, rounded */
+[class*="st-key-card"] {
+  background: var(--rose-soft);
+  border-radius: 28px !important;
+  border: 1px solid var(--rose-line) !important;
+  padding: 1rem 1.2rem;
+}
+
+/* Ranking */
+.rank { display: flex; align-items: center; gap: .8rem; background: #fff8f6; border: 1px solid var(--rose-line);
+        border-radius: 999px; padding: .5rem 1rem; margin: .35rem 0; }
+.rank .num { width: 2.1rem; height: 2.1rem; border-radius: 50%; background: var(--charcoal); color: #fff;
+             display: flex; align-items: center; justify-content: center; font-weight: 600; }
+.rank.first { border: 2px solid var(--citrus); }
+.rank .name { font-weight: 600; color: var(--charcoal); }
+.rank { flex-wrap: wrap; border-radius: 1.6rem; }
+.rank .why { flex-basis: 100%; padding-left: 2.9rem; color: var(--muted); font-size: .92rem; line-height: 1.4; }
+.tag { border-radius: 999px; padding: .1rem .6rem; font-size: .8rem; background: var(--rose);
+       color: var(--charcoal); }
+
+/* Summary */
+.summary { background: #fff8f6; border-left: 5px solid var(--citrus); border-radius: 18px;
+           padding: 1rem 1.2rem; margin: 1rem 0; color: var(--charcoal); }
+
+/* Flags */
+.flag { border-radius: 18px; padding: .7rem 1rem; margin: .5rem 0; color: var(--charcoal); }
+.flag.suit { background: var(--sage-bg); }
+.flag.caution { background: var(--peach-bg); }
+.pill { display: inline-block; border-radius: 999px; padding: .1rem .7rem; font-weight: 600;
+        font-size: .85rem; margin-right: .4rem; background: #fff; }
+.flag.suit .pill { color: var(--sage-text); }
+.flag.caution .pill { color: var(--citrus-text); }
+.flag .why { display: block; margin-top: .3rem; color: var(--muted); }
+.flag a { color: var(--citrus-text); font-weight: 600; }
+
+/* Inside rose cards, make typing boxes lighter so they stand out */
+[class*="st-key-card"] [data-baseweb="input"],
+[class*="st-key-card"] [data-baseweb="input"] input,
+[class*="st-key-card"] [data-baseweb="textarea"],
+[class*="st-key-card"] [data-baseweb="textarea"] textarea,
+[class*="st-key-card"] [data-baseweb="select"] > div {
+  background-color: #FFF8F6 !important;
+}
+[class*="st-key-card"] textarea,
+[class*="st-key-card"] input,
+[class*="st-key-card"] div:has(> textarea),
+[class*="st-key-card"] div:has(> input) {
+  background-color: #FFF8F6 !important;
+}
+
+/* Note under the ranking */
+.order-note { background: #fff8f6; border: 1px solid var(--rose-line); border-radius: 1rem; padding: .7rem 1rem;
+              margin: .5rem 0 1rem; color: var(--charcoal); font-size: .95rem; }
+.order-note.close { border-left: 4px solid var(--citrus); }
+.rank .why.worth { color: #7A3A12; }
+
+.hero .version { font-size: .8rem; color: var(--muted); margin: .4rem 0 0; }
+
+/* While something is loading, Streamlit fades the rest of the page. Keep it readable instead. */
+[data-stale="true"] { opacity: 1 !important; transition: none !important; }
+
+/* "Reading your photo..." with a little running person, like Streamlit's own */
+[class*="st-key-reading_"] [data-testid="stIconMaterial"] { color: var(--citrus-text);
+    display: inline-block; animation: jog .6s ease-in-out infinite alternate; }
+@keyframes jog { from { transform: translateY(0) rotate(-4deg); } to { transform: translateY(-3px) rotate(4deg); } }
+
+/* 0.9.1: pore-clogging check tag */
+.tag.pore { background: #e3f1e0; color: #2f5d2a; }

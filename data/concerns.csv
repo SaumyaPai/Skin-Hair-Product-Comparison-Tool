@@ -1,0 +1,14 @@
+concern_id,label,category,phrase
+acne-prone,Acne-prone,skin,acne-prone skin
+acne-marks,Acne marks,skin,acne marks
+dark-circles,Dark circles,skin,dark circles
+dullness,Dullness,skin,dull-looking skin
+dryness,Dryness,skin,dry skin
+pigmentation,Pigmentation,skin,uneven pigmentation
+redness,Redness,skin,redness-prone skin
+dandruff,Dandruff,hair,dandruff
+flaky-scalp,Flaky scalp,hair,a flaky scalp
+itchy-scalp,Itchy scalp,hair,an itchy scalp
+hair-fall,Hair fall,hair,hair fall
+frizz,Frizz,hair,frizz
+dry-damaged-hair,Dry or damaged hair,hair,dry or damaged hair

@@ -1,0 +1,229 @@
+{
+  "_note": "10 comparisons for the consistency test. These are example ingredient lists: you can keep them, or replace them with real products you own (paste the list as ingredients_text). 2 to 4 products each, same type.",
+  "comparisons": [
+    {
+      "label": "Face washes for acne-prone skin",
+      "product_type": "face_wash",
+      "concerns": [
+        "acne-prone"
+      ],
+      "profile": {
+        "skin_type": "oily"
+      },
+      "products": [
+        {
+          "display_name": "Wash A",
+          "ingredients_text": "Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Salicylic Acid, Glycerin, Sodium Chloride, Parfum, Citric Acid"
+        },
+        {
+          "display_name": "Wash B",
+          "ingredients_text": "Water, Glycerin, Cocamidopropyl Betaine, Niacinamide, Zinc PCA, Allantoin, Sodium Benzoate"
+        },
+        {
+          "display_name": "Wash C",
+          "ingredients_text": "Aqua, Sodium Lauryl Sulfate, Coconut Oil, Isopropyl Myristate, Fragrance, Methylparaben"
+        }
+      ]
+    },
+    {
+      "label": "Serums for pigmentation",
+      "product_type": "serum",
+      "concerns": [
+        "pigmentation",
+        "acne-marks"
+      ],
+      "profile": {
+        "sensitive": true
+      },
+      "products": [
+        {
+          "display_name": "Serum A",
+          "ingredients_text": "Aqua, Niacinamide, Zinc PCA, Glycerin, Pentylene Glycol, Phenoxyethanol"
+        },
+        {
+          "display_name": "Serum B",
+          "ingredients_text": "Water, Ascorbic Acid, Propylene Glycol, Ferulic Acid, Tocopherol, Parfum"
+        },
+        {
+          "display_name": "Serum C",
+          "ingredients_text": "Aqua, Alpha-Arbutin, Glycerin, Hyaluronic Acid, Alcohol Denat., Linalool"
+        }
+      ]
+    },
+    {
+      "label": "Moisturisers for dry skin",
+      "product_type": "moisturizer",
+      "concerns": [
+        "dryness"
+      ],
+      "profile": {
+        "skin_type": "dry"
+      },
+      "products": [
+        {
+          "display_name": "Cream A",
+          "ingredients_text": "Aqua, Glycerin, Cetearyl Alcohol, Ceramide NP, Shea Butter, Dimethicone, Phenoxyethanol"
+        },
+        {
+          "display_name": "Cream B",
+          "ingredients_text": "Water, Alcohol Denat., Glycerin, Hyaluronic Acid, Parfum, Carbomer"
+        }
+      ]
+    },
+    {
+      "label": "Toners for redness",
+      "product_type": "toner",
+      "concerns": [
+        "redness"
+      ],
+      "profile": {
+        "sensitive": true
+      },
+      "products": [
+        {
+          "display_name": "Toner A",
+          "ingredients_text": "Aqua, Glycerin, Panthenol, Allantoin, Centella Asiatica Extract, Sodium Benzoate"
+        },
+        {
+          "display_name": "Toner B",
+          "ingredients_text": "Water, Alcohol Denat., Witch Hazel, Menthol, Parfum, Glycolic Acid"
+        }
+      ]
+    },
+    {
+      "label": "Sunscreens for pigmentation",
+      "product_type": "sunscreen",
+      "concerns": [
+        "pigmentation"
+      ],
+      "profile": {},
+      "products": [
+        {
+          "display_name": "Sunscreen A",
+          "ingredients_text": "Aqua, Zinc Oxide, Titanium Dioxide, Iron Oxides, Glycerin, Dimethicone"
+        },
+        {
+          "display_name": "Sunscreen B",
+          "ingredients_text": "Water, Homosalate, Octocrylene, Avobenzone, Alcohol Denat., Parfum"
+        },
+        {
+          "display_name": "Sunscreen C",
+          "ingredients_text": "Aqua, Ethylhexyl Methoxycinnamate, Glycerin, Tocopherol, Fragrance"
+        }
+      ]
+    },
+    {
+      "label": "Shampoos for dandruff",
+      "product_type": "shampoo",
+      "concerns": [
+        "dandruff",
+        "itchy-scalp"
+      ],
+      "profile": {
+        "scalp_type": "oily"
+      },
+      "products": [
+        {
+          "display_name": "Shampoo A",
+          "ingredients_text": "Aqua, Sodium Laureth Sulfate, Zinc Pyrithione, Cocamidopropyl Betaine, Parfum, Sodium Chloride"
+        },
+        {
+          "display_name": "Shampoo B",
+          "ingredients_text": "Water, Sodium Lauroyl Sarcosinate, Ketoconazole, Glycerin, Menthol"
+        },
+        {
+          "display_name": "Shampoo C",
+          "ingredients_text": "Aqua, Sodium Lauryl Sulfate, Aloe Barbadensis Leaf Juice, Tea Tree Oil, Fragrance"
+        }
+      ]
+    },
+    {
+      "label": "Shampoos for frizz",
+      "product_type": "shampoo",
+      "concerns": [
+        "frizz",
+        "dry-damaged-hair"
+      ],
+      "profile": {},
+      "products": [
+        {
+          "display_name": "Shampoo D",
+          "ingredients_text": "Aqua, Sodium Lauryl Sulfate, Sodium Laureth Sulfate, Parfum, Sodium Chloride"
+        },
+        {
+          "display_name": "Shampoo E",
+          "ingredients_text": "Water, Decyl Glucoside, Glycerin, Argan Oil, Panthenol, Polyquaternium-10"
+        }
+      ]
+    },
+    {
+      "label": "Conditioners for frizz",
+      "product_type": "conditioner",
+      "concerns": [
+        "frizz"
+      ],
+      "profile": {},
+      "products": [
+        {
+          "display_name": "Conditioner A",
+          "ingredients_text": "Aqua, Cetearyl Alcohol, Behentrimonium Chloride, Dimethicone, Argan Oil, Parfum"
+        },
+        {
+          "display_name": "Conditioner B",
+          "ingredients_text": "Water, Cetyl Alcohol, Stearalkonium Chloride, Glycerin, Panthenol, Polyquaternium-7"
+        },
+        {
+          "display_name": "Conditioner C",
+          "ingredients_text": "Aqua, Cetearyl Alcohol, Cetrimonium Chloride, Fragrance, Citric Acid"
+        }
+      ]
+    },
+    {
+      "label": "Hair oils for hair fall",
+      "product_type": "hair_oil_serum",
+      "concerns": [
+        "hair-fall",
+        "dry-damaged-hair"
+      ],
+      "profile": {},
+      "products": [
+        {
+          "display_name": "Oil A",
+          "ingredients_text": "Cocos Nucifera Oil, Rosmarinus Officinalis Leaf Oil, Tocopherol"
+        },
+        {
+          "display_name": "Oil B",
+          "ingredients_text": "Mineral Oil, Parfum, Ricinus Communis Seed Oil, CI 47000"
+        },
+        {
+          "display_name": "Oil C",
+          "ingredients_text": "Cyclopentasiloxane, Dimethiconol, Argan Oil, Fragrance"
+        }
+      ]
+    },
+    {
+      "label": "Body lotions for dryness",
+      "product_type": "body_lotion",
+      "concerns": [
+        "dryness"
+      ],
+      "profile": {
+        "avoid_fragrance": true
+      },
+      "products": [
+        {
+          "display_name": "Lotion A",
+          "ingredients_text": "Aqua, Glycerin, Petrolatum, Shea Butter, Dimethicone, Cetyl Alcohol, Phenoxyethanol"
+        },
+        {
+          "display_name": "Lotion B",
+          "ingredients_text": "Water, Glycerin, Urea, Lactic Acid, Ceramide NP, Parfum"
+        },
+        {
+          "display_name": "Lotion C",
+          "ingredients_text": "Aqua, Alcohol Denat., Glycerin, Fragrance, Carbomer, Limonene"
+        }
+      ]
+    }
+  ]
+}

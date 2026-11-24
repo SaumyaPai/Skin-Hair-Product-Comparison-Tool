@@ -1,0 +1,26 @@
+[browser]
+gatherUsageStats = false
+
+[server]
+headless = true
+
+# Colours inspired by a soft blush skincare look. Every text colour here was checked
+# for readable contrast (at least 4.5 : 1) on every background it is used on.
+[theme]
+base = "light"
+primaryColor = "#1E1A19"              # near-black: buttons, selected items, focus
+backgroundColor = "#F8ECEA"           # blush page background
+secondaryBackgroundColor = "#F1DAD8"  # soft rose: input boxes, expanders
+textColor = "#2A2321"                 # warm charcoal text
+linkColor = "#8F4310"                 # deep orange links (readable on blush)
+borderColor = "#E2BFBB"
+showWidgetBorder = true
+font = "sans-serif"
+headingFont = "serif"                 # elegant serif headings (built in, no download)
+baseRadius = "large"
+buttonRadius = "full"                 # pill-shaped buttons
+orangeColor = "#E07A2E"
+orangeBackgroundColor = "#FBE3CF"
+orangeTextColor = "#8F4310"
+greenBackgroundColor = "#E3EEDF"
+greenTextColor = "#2F5D3A"

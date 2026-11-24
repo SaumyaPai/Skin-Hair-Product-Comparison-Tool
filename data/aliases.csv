@@ -1,0 +1,68 @@
+alias,standard_name,note
+aqua,water,INCI name
+eau,water,French label name
+parfum,fragrance,INCI name
+perfume,fragrance,
+fragrance (parfum),fragrance,common label form
+parfum (fragrance),fragrance,common label form
+alcohol denat,alcohol,denatured alcohol
+alcohol denat.,alcohol,denatured alcohol
+denatured alcohol,alcohol,
+sd alcohol 40,alcohol,denatured alcohol
+sd alcohol,alcohol,denatured alcohol
+ethanol,alcohol,
+ethyl alcohol,alcohol,"not cetyl, cetearyl or stearyl alcohol, which are different (fatty) alcohols"
+isopropyl alcohol,alcohol,
+sls,sodium lauryl sulfate,abbreviation
+sodium dodecyl sulfate,sodium lauryl sulfate,chemical name
+glycerol,glycerin,
+glycerine,glycerin,
+sodium hyaluronate,hyaluronic acid,salt form of hyaluronic acid
+hyaluronan,hyaluronic acid,
+petroleum jelly,petrolatum,
+white petrolatum,petrolatum,
+petrolatum jelly,petrolatum,
+paraffinum liquidum,mineral oil,INCI name
+liquid paraffin,mineral oil,
+paraffin oil,mineral oil,
+butyrospermum parkii butter,shea butter,INCI name
+butyrospermum parkii (shea) butter,shea butter,INCI name with common name
+butyrospermum parkii (shea butter),shea butter,
+vitellaria paradoxa butter,shea butter,newer INCI name
+simmondsia chinensis seed oil,jojoba oil,INCI name
+simmondsia chinensis (jojoba) seed oil,jojoba oil,INCI name with common name
+cocos nucifera oil,coconut oil,INCI name
+cocos nucifera (coconut) oil,coconut oil,INCI name with common name
+polydimethylsiloxane,dimethicone,chemical name
+vitamin c,ascorbic acid,
+l-ascorbic acid,ascorbic acid,
+nicotinamide,niacinamide,
+vitamin b3,niacinamide,
+bha,salicylic acid,abbreviation
+beta hydroxy acid,salicylic acid,
+retinaldehyde,retinal,
+pyrithione zinc,zinc pyrithione,
+selenium disulfide,selenium sulfide,
+sulphur,sulfur,British spelling
+ci 77891,titanium dioxide,colour index number
+ci 77947,zinc oxide,colour index number
+ci 77491,iron oxides,colour index number (red iron oxide)
+ci 77492,iron oxides,colour index number (yellow iron oxide)
+ci 77499,iron oxides,colour index number (black iron oxide)
+iron oxide,iron oxides,
+polyquaternium 10,polyquaternium-10,spacing variant
+d-limonene,limonene,
+vitamin k,phytonadione,
+vitamin k1,phytonadione,
+phylloquinone,phytonadione,
+rosmarinus officinalis leaf oil,rosemary oil,INCI name
+rosmarinus officinalis (rosemary) leaf oil,rosemary oil,INCI name with common name
+salvia rosmarinus leaf oil,rosemary oil,newer INCI name
+rosmarinus officinalis oil,rosemary oil,
+theobroma cacao seed butter,cocoa butter,INCI name
+theobroma cacao (cocoa) seed butter,cocoa butter,INCI name with common name
+cocoa seed butter,cocoa butter,label name
+octyl palmitate,ethylhexyl palmitate,older name
+octyl stearate,ethylhexyl stearate,older name
+2-ethylhexyl palmitate,ethylhexyl palmitate,label name
+ipm,isopropyl myristate,short name

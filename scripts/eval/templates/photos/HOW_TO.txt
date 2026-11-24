@@ -1,0 +1,10 @@
+Label photos for measure 1 (reading accuracy)
+
+For each product:
+  1. Put the photo here, for example   serum_glow.jpg
+  2. Type the TRUE ingredient list from the pack into a text file with the SAME name:   serum_glow.txt
+     (copy every ingredient exactly as printed, separated by commas)
+
+Aim for 30 photos across different product types. Mix easy ones (flat, clear) and hard ones (curved,
+shiny, small print), because real shoppers take both.
+Then run:   python -m scripts.eval.extraction

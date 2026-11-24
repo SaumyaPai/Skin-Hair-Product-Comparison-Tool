@@ -1,0 +1,10 @@
+{
+  "product_type": "serum",
+  "concerns": ["acne-prone", "pigmentation"],
+  "profile": {"sensitive": true, "avoid_fragrance": false},
+  "products": [
+    {"display_name": "Serum A", "ingredients_text": "Aqua, Niacinamide, Zinc PCA, Glycerin"},
+    {"display_name": "Serum B", "ingredients_text": "Water, Salicylic Acid, Parfum, Glycerin"},
+    {"display_name": "Serum C", "ingredients_text": "Aqua, Alcohol Denat., Linalool"}
+  ]
+}

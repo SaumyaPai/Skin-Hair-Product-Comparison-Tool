@@ -1,0 +1,13 @@
+product_type,label,category,application,obf_category_tags
+face_wash,Face wash,skin,rinse_off,en:face-cleansers|en:facial-cleansers
+soap_body_wash,Soap or body wash,skin,rinse_off,en:shower-gels|en:soaps|en:body-washes
+toner,Toner,skin,leave_on,en:toners|en:facial-toners
+serum,Serum,skin,leave_on,en:serums|en:face-serums
+moisturizer,Moisturizer,skin,leave_on,en:moisturizers|en:face-creams
+face_mask,Face mask,skin,rinse_off,en:face-masks
+lip_balm,Lip balm,skin,leave_on,en:lip-balms
+body_lotion,Body lotion,skin,leave_on,en:body-lotions|en:body-creams
+sunscreen,Sunscreen,skin,leave_on,en:sunscreens|en:sun-protection
+shampoo,Shampoo,hair,rinse_off,en:shampoos
+conditioner,Conditioner,hair,rinse_off,en:conditioners|en:hair-conditioners
+hair_oil_serum,Hair oil or serum,hair,leave_on,en:hair-oils|en:hair-serums
